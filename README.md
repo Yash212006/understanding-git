@@ -1,3 +1,4 @@
 # understanding-git
-this is my first git repository
-author - yash saraswat
+This is my first git repository.
+<br>
+Author - Yash Saraswat

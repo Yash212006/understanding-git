@@ -1,4 +1,4 @@
 # understanding-git
 This is my first git repository.
 <br>
-Author - Yash Saraswat
+Author - Yash Saraswat (coder)

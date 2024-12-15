@@ -1,0 +1,80 @@
+1) clone - cloning a repository on our local machine
+       git clone <link>
+
+2) status - displays the state of the code
+       git status
+
+3)cd - change directory
+	cd ..  // to come out of the folder
+
+
+4) ls - to list files
+
+5) ls -a  - to list all the files including hidden .
+
+6) add - to add the file
+       git add filename
+       git add .    // add all the files
+
+7) commit - to commit the staged files
+       git commit -m message
+
+8) push - upload local repo content to remote repo
+       git push origin main
+
+9) init - used too cerate a new git repo
+   git init
+git remote add origin link
+git remote -v (to verify remote)
+git branch (to check branch)
+git branch -M main (to rename branch)
+git push origin main 
+
+10) branches
+ git branch (to check branch)
+git branch -M main (to rename branch)
+git checkout <branch name>   (to navigate )
+git checkout -b <new branch name>   (to create new branch)
+
+git branch -d <branch name > (to delete branch)
+
+git push origin --delete branch_name (to delete on remote)
+
+
+
+10) merging code 
+
+way 1
+
+git diff <branch name> (to compare commits, branches, files and more)
+git merge <branch name>  (to merge 2 branches)
+
+way 2
+
+create a PR
+PR - it lets you tell others about changes you have pushed to a branch in a
+repository on GitHub.
+
+after generating pull request on git hub.
+this command will pull the code on local machine
+git pull origin main
+
+
+11) undoing changes
+
+case 1: staged changes
+git reset <filename>
+git reset
+
+case2: commited changes (for one commit)
+git reset HEAD~1
+
+case3: commited changes (for many commits)
+git reset <commit hash>
+git reset --hard <commit hash>
+
+
+
+
+
+       
